@@ -1,8 +1,8 @@
 # this is one of my pyhton project 
 
-i have created my assistant jarvis which react on three commands for yours.
+i have created my assistant jarvis which react on three commands for you.
 1. if u say "HEY JARVIS"
-   he will reply bach as "HELLO SIR"
+   he will reply back as "HELLO SIR"
 
 2. tell him:
 
