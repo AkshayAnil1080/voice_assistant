@@ -1,0 +1,28 @@
+import pyttsx3
+import os
+import speech_recognition as sr
+
+while True:
+ print("enter your requirement ....  we r listening: " ,end='')
+ 
+
+ r = sr.Recognizer()
+
+ with sr.Microphone() as source:
+    print('start saying ..')
+    audio =  r.listen(source)
+    print('please wait ..')
+
+
+ ch=r.recognize_google(audio)
+
+ if("surf" in ch) or ("internet" in ch):
+  pyttsx3.speak("ok! i got it......Here you go")
+  os.system("chrome")
+
+ elif("Jarvis" in ch):
+  pyttsx3.speak("Hello sir")
+ elif("bye" in ch):
+  pyttsx3.speak("bye sir. have a nice day")
+ else:
+  pyttsx3.speak("not understand")
