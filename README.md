@@ -1,4 +1,4 @@
-# this is one of my pyhton project 
+# this is one of my python project 
 
 i have created my assistant jarvis which react on three commands for you.
 1. if u say "HEY JARVIS"
